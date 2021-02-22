@@ -1,236 +1,268 @@
-<html>
-    <head>
-        <title>Welcome to Oinc.PH!</title>
-        <link rel="stylesheet" href="newstyle.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </head>
-    <body>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Welcome to Oinc.PH!</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
     <!-----Navigation Bar----->
-        <section id="nav-bar">
-            <nav class="navbar navbar-expand-lg navbar-light">
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#slider"><img src="oinclogo.png" width="50" height="50"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#values">Our Values</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">The Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#create">Invest</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">LOGIN</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#values">Our Values</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">The Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#create">Invest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LOGIN</a>
+                    </li>
                 </ul>
             </div>
-            </nav>
-        </section>
+        </nav>
+    </section>
     <!-----Slider----->
-        <div id="slider">
-            <div id="headerSlider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
-                    <li data-target="#headerSlider" data-slide-to="1"></li>
-                    <li data-target="#headerSlider" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="banner1.jpg" class="d-block w-100">
-                        <div class="carousel-caption">
-                            <h5>Oinc!</h5>
-                            <h5>Sound Agriculture Game-Changer</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="banner2.jpg" class="d-block w-100">
-                        <div class="carousel-caption">
-                            <h5>Be our partner, help a grower</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="banner3.jpg" class="d-block w-100">
-                        <div class="carousel-caption">
-                            <h5>Gain Financial Freedom!</h5>
-                        </div>
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerSlider" data-slide-to="1"></li>
+                <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="banner1.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Oinc!</h5>
+                        <h5>Sound Agriculture Game-Changer</h5>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <div class="carousel-item">
+                    <img src="banner2.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Be our partner, help a grower</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="banner3.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Gain Financial Freedom!</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-----About----->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-mid-6">
+                    <h2>What is Oinc.PH?</h2>
+                    <div class="about-content">
+                        Oinc.PH is a web-based crowdfunding platform that helps neophyte investors earn from secure,
+                        short-term investments while empowering rural livestock growers
+                    </div>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
             </div>
         </div>
-    <!-----About----->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-mid-6">
-                        <h2>What is Oinc.PH?</h2>
-                        <div class="about-content">
-                            Oinc.PH is a web-based crowdfunding platform that helps neophyte investors earn from secure, short-term investments while empowering rural livestock growers
-                        </div>
-                        <button type="button" class="btn btn-primary">Read More</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+    </section>
     <!-----Our Values----->
-        <section id="values">
-            <div class="container">
-                <h1>Our Values</h1>
-                <div class="row values">
-                    <div class="col-md-4 text-center">
-                        <div class="icon">
-                            <i class="fa fa-shield"></i>
-                        </div>    
-                        <h3>Financial Security</h3>
-                        <p>We offer a convenient secure short-term investment option and an additional source of income through effective partnership with growers as they nurture insured livestock</p>
+    <section id="values">
+        <div class="container">
+            <h1>Our Values</h1>
+            <div class="row values">
+                <div class="col-md-4 text-center">
+                    <div class="icon">
+                        <i class="fa fa-shield"></i>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <div class="icon">
-                            <i class="fa fa-line-chart"></i>
-                        </div>
-                        <h3>Empowerment</h3>
-                        <p>We serve as an avenue to impact the lives of the livestock growers as they become more productive and improve the quality of life while investors grow their money at same time</p>
+                    <h3>Financial Security</h3>
+                    <p>We offer a convenient secure short-term investment option and an additional source of income
+                        through effective partnership with growers as they nurture insured livestock</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="icon">
+                        <i class="fa fa-line-chart"></i>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <div class="icon">
-                            <i class="fa fa-handshake-o"></i>
-                        </div>
-                        <h3>Inclusive Development</h3>
-                        <p>A platform to build mutually profitable relationship between investors and livestock growers as they help the country’s agricultural landscape</p>
+                    <h3>Empowerment</h3>
+                    <p>We serve as an avenue to impact the lives of the livestock growers as they become more productive
+                        and improve the quality of life while investors grow their money at same time</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="icon">
+                        <i class="fa fa-handshake-o"></i>
                     </div>
+                    <h3>Inclusive Development</h3>
+                    <p>A platform to build mutually profitable relationship between investors and livestock growers as
+                        they help the country’s agricultural landscape</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     <!-----The Team----->
-        <section id="team">
-            <div class="container">
-                <h1>The Team</h1>
-                <div class="row">
-                    <div class="col-md-4 profile-pic text-center">
-                        <div class="img-box">
-                            <img src="doms.jpg" class="img-responsive";>
-                            <ul>
-                                <a href="#"><li><i class="fa fa-envelope"></i></li></a>
-                                <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
-                                <a href="#"><li><i class="fa fa-facebook"></i></li></a>
-                            </ul>
-                            <div>
-                                <h2>Ramon Dominic Nobleza</h2>
-                                <h3>Founder / CEO</h3>
-                                <p>BS Tourism Management</p>
-                            </div>
+    <section id="team">
+        <div class="container">
+            <h1>The Team</h1>
+            <div class="row">
+                <div class="col-md-4 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="doms.jpg" class="img-responsive" ;>
+                        <ul>
+                            <a href="#">
+                                <li><i class="fa fa-envelope"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                        </ul>
+                        <div>
+                            <h2>Ramon Dominic Nobleza</h2>
+                            <h3>Founder / CEO</h3>
+                            <p>BS Tourism Management</p>
                         </div>
                     </div>
-                    <div class="col-md-4 profile-pic text-center">
-                        <div class="img-box">
-                            <img src="lopz.jpg" class="img-responsive";>
-                            <ul>
-                                <a href="#"><li><i class="fa fa-envelope"></i></li></a>
-                                <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
-                                <a href="#"><li><i class="fa fa-facebook"></i></li></a>
-                            </ul>
-                            <div>
-                                <h2>Joshua Daniel Lopez</h2>
-                                <h3>Co-Founder / CTO</h3>
-                                <p>BS Information Technology</p>
-                            </div>
+                </div>
+                <div class="col-md-4 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="lopz.jpg" class="img-responsive" ;>
+                        <ul>
+                            <a href="#">
+                                <li><i class="fa fa-envelope"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                        </ul>
+                        <div>
+                            <h2>Joshua Daniel Lopez</h2>
+                            <h3>Co-Founder / CTO</h3>
+                            <p>BS Information Technology</p>
                         </div>
                     </div>
-                    <div class="col-md-4 profile-pic text-center">
-                        <div class="img-box">
-                            <img src="dan.jpg" class="img-responsive";>
-                            <ul>
-                                <a href="#"><li><i class="fa fa-envelope"></i></li></a>
-                                <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
-                                <a href="#"><li><i class="fa fa-facebook"></i></li></a>
-                            </ul>
-                            <div>
-                                <h2>Daniel John Nadal</h2>
-                                <h3>Co-Founder / COO</h3>
-                                <p>BS Electronics Engineering</p>
-                            </div>
+                </div>
+                <div class="col-md-4 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="dan.jpg" class="img-responsive" ;>
+                        <ul>
+                            <a href="#">
+                                <li><i class="fa fa-envelope"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-linkedin"></i></li>
+                            </a>
+                            <a href="#">
+                                <li><i class="fa fa-facebook"></i></li>
+                            </a>
+                        </ul>
+                        <div>
+                            <h2>Daniel John Nadal</h2>
+                            <h3>Co-Founder / COO</h3>
+                            <p>BS Electronics Engineering</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     <!-----Invest----->
-        <section id="create">
-            <div class="container">
-                <p>Your Investment Plan, Your Choice</p>
-                <a href="#" class="btn btn-primary">Create Plan</a>
-            </div>
-        </section>
+    <section id="create">
+        <div class="container">
+            <p>Your Investment Plan, Your Choice</p>
+            <a href="#" class="btn btn-primary">Create Plan</a>
+        </div>
+    </section>
     <!------Contact Us----->
-        <section id="contact">
-            <div class="container">
-                <h1>Contact Us</h1>
-                <div class="row">
-                    <div class="col-md-6">
-                        <form class="contact-form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="number" class="form-control" placeholder="Phone Number">
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Send</button>
-                        </form>
+    <section id="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+                <div class="col-md-6 contact-info">
+                    <div class="container">
+                        <h2>Location</h2>
+                        <p>Ateneo Innovations Center 2F Entrep Bldg, Ateneo de Naga University, Ateneo Avenue,
+                            Bagumbayan Sur, Naga City 4400</p>
                     </div>
-                    <div class="col-md-6 contact-info">
-                        <div class="container">
-                            <h2>Location</h2>    
-                            <p>Ateneo Innovations Center 2F Entrep Bldg, Ateneo de Naga University, Ateneo Avenue, Bagumbayan Sur, Naga City 4400</p>
-                        </div>
-                        <div class="container">
-                            <h2>Email Address</h2>    
-                            <p>oinc.ph@gmail.com</p>
-                        </div>
-                        <div class="container">
-                            <h2>Phone Number</h2>    
-                            <p>(+63) 919 549 9107</p>
-                        </div>
-                        <div class="container">
-                            <h2>Social Media</h2>    
-                            <a href="https://www.facebook.com/oinc.ph/"><i class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/OincPH"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/oinc.ph/"><i class="fa fa-instagram"></i></a>
-                        </div>
+                    <div class="container">
+                        <h2>Email Address</h2>
+                        <p>oinc.ph@gmail.com</p>
+                    </div>
+                    <div class="container">
+                        <h2>Phone Number</h2>
+                        <p>(+63) 919 549 9107</p>
+                    </div>
+                    <div class="container">
+                        <h2>Social Media</h2>
+                        <a href="https://www.facebook.com/oinc.ph/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/OincPH"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/oinc.ph/"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     <!-----Footer----->
-        <script src="smooth-scroll.js"></script>
-        <script>
-            var scroll = new SmoothScroll('a[href*="#"]');
-        </script>  
-    </body>
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+
 </html>
